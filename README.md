@@ -1,0 +1,17 @@
+- Installed by downloading for windows machine. Provided password and kept default port and locale.
+- Connected with SQL shell in windows
+- Ran \l command to see what is in it at the moment
+- Created a sample database using "create database db_name" command. db_name is sample, I used a name called testing.
+- Deleted the database with drop command.
+- Created a new database with created database command for sample database provided by Izaan.
+- Downloaded sample zip file from sample database
+- Used pg_restore command to import database to newly created empty database.
+- Connected to database using \c command
+- Looked into tables using \d command, also tested \dt and \dt+ command
+- Practiced with selecting data using select & from command. The sample command to access actor table was select * from actor; (Used wildcard to access everything for now and didn't limit query)
+- Accessed first name from actor table using select first_name from actor;
+- Exited with CTRL+C
+- Started playing with customer table. Used same select wildcard to see content
+- Tested multiple field extraction with command select first_name, last_name, email from customer;
+- Used select statement with expressions select first_name || ' ' || last_name, email from customer; and received desired data.
+- Additional testing done with insert column, Alter tanle commands but require more practice with real time examples.
